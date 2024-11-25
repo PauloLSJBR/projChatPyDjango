@@ -1,0 +1,59 @@
+# Sistema operacional
+*.DS_Store
+Thumbs.db
+
+# Arquivos Python compilados
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Configurações de ambiente virtual
+env/
+venv/
+ENV/
+.VENV/
+*.venv
+*.env
+
+# Arquivos de configuração de ambiente local
+*.env
+*.local
+
+# Arquivos criados pelo Django
+db.sqlite3
+*.log
+
+# Arquivos estáticos e de mídia (gerados dinamicamente)
+staticfiles/
+media/
+
+# Configuração do IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de depuração e profiling
+*.cover
+*.prof
+*.log
+*.pot
+*.out
+*.err
+
+# Arquivos de pacotes e distribuição
+dist/
+build/
+*.egg-info/
+
+# Arquivos gerados pelo pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuração do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes

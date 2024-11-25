@@ -1,0 +1,3 @@
+# Forçar LF para arquivos de texto
+*.py text eol=lf
+*.txt text eol=lf

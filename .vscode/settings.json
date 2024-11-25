@@ -1,0 +1,28 @@
+{
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": false,
+    "code-runner.ignoreSelection": false,
+    "code-runner.executorMap": {
+        "python": "clear ; python -u",
+        "shellscript": "bash",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "swift": "swift",
+        "crystal": "crystal",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "dart": "dart",
+        "haskell": "runghc",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python"
+
+}

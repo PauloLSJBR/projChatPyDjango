@@ -1,0 +1,28 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Arquivo Atual",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "pythonPath": "${workspaceFolder}/venv/bin/python",  // Caminho do Python no ambiente virtual
+        "env": {
+          "PYTHONPYCACHEPREFIX": "${workspaceFolder}/.pycache"  // Diretório onde o __pycache__ será criado
+        },
+        "console": "integratedTerminal"
+      },
+      {
+          "name": "Django",
+          "type": "debugpy",
+          "request": "launch",
+          "program": "${workspaceFolder}/manage.py",
+          "args": ["runserver"],
+          "django": true,
+          "console": "integratedTerminal",
+          "justMyCode": true
+      }
+    ]
+  }
+  
